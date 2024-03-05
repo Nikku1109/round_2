@@ -1,0 +1,129 @@
+.box{
+    width: 100%;
+    height: fit-content;
+    background-color: #0b235a;
+    color: white;
+}
+.head_box{
+    height: 60px;
+    padding: 10px 60px;
+    background-color: #1a3165;
+}
+.nav_box{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.had {
+    float: left;
+}
+.nav_box li{
+    float: right;
+}
+
+.nav{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.box_a{
+    padding: 20px 60px;
+}
+.table{
+    width: 100%;
+    text-align: center;
+}
+.table td{
+    padding: 10px 0;
+}
+.btn{
+    width: 100px;
+    margin: 50px auto;
+    background-color: rgb(81, 81, 239);
+
+}
+.btn1{
+    width: 100px;
+   padding: 15px 10px;
+    background-color:rgb(81, 81, 239);
+    
+}
+.new_box{
+    width: 90%;
+    margin: 30px auto;
+
+}
+.new_box1{
+    width: 40%;
+    float: left;
+}
+.new_box1 img{
+    width: 100%;
+}
+.new_box2{
+    margin: 2% 5%;
+    float: left;
+    width: 50%;
+    
+}
+.new_box2 ul{
+    display: flow-root;
+}
+.new_box2 li{
+    margin-top: 15px;
+}
+.footer{
+    margin-top: 30px;
+    padding: 60px 0px 30px 60px;
+    float: left;
+    width: -webkit-fill-available;
+    background-color: #1a3165;
+}
+.f1{
+    width: 40%;
+    float: left;
+}
+.f2{
+    margin-left: 46px;
+    float: left;
+    width: 10%;
+}
+.f2 h3{
+    text-align: center;
+}
+@media screen and (max-width: 700px){
+    .head_box{
+        height: 100px;
+        padding: 5px 0;
+    }
+    .had{
+        width: 100%;
+        text-align: center;
+    }
+    .nav_box li{
+        margin: 0 -6px;
+    }
+    .box{
+        height: 1800px;
+    }
+    .new_box1{
+        width: 100%;
+    }
+    .new_box2{
+        width: 100%;
+    }
+    .footer{padding: 10px;}
+    .f1{
+        width: fit-content;
+    }
+    .f2{
+        width: 35%;
+        margin-left: 10px;
+
+    }
+    
+
+}
